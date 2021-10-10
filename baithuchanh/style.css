@@ -1,41 +1,77 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.content{
-    text-align:center;
-}
-h3{
-    /* text-align: center; */
-    margin: 40px auto;
+
+ul {
+    list-style: none;
 }
 
-.text .text4{
-    height: 35px;
-    width: 227px;
-    border: 1px solid;
-    margin-right: 13px;
-    margin-bottom: 15px;
-    padding-left: 15px ;
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
 }
-.text .text5{
-    height: 35px;
-    width: 500px;
-    margin-bottom: 15px;
-    padding-left: 15px;
+.style{
+    display: flex;
+    flex-direction: row;
+   align-items: center;
 }
-.text .text3{
-    width: 500px;
-    height: 250px;
-    margin-bottom: 10px;
-    padding-left: 15px ;
-    padding-top: 5px;
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50%;
+    display: flex;
+    /* background-color: red; */
+    
 }
-.text button{
-    width: 110px;
-    height: 35px;
-    background-color:rgb(125,206,253) ;
-    border-radius: 4px;
-    border: 1px solid rgb(125,206,253);
-    margin-right: 130px;
+
+.container .content {
+    width: 50%;
+    /* background-color: burlywood; */
+}
+
+.container .text {
+    width: 50%;
+    height: 430px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    text-transform: capitalize;
+}
+
+.container .content2 h2 {
+    font-size: 30px;
+    margin-left: 35px;
+    margin-bottom: 30px;
+}
+
+.container .content .content2 .text1 {
+    margin: 30px 35px;
+    width: 450px;
+    line-height: 25px;
+}
+
+.container .content .content3 h3 {
+    font-size: 25px;
+    margin: 30px 35px;
+}
+
+.container .content .content3.lst {
+    /* background-color:red; */
+    width: 50%;
+    float: left;
+}
+
+.container .content .content3 .lst li {
+    width: 40%;
+    margin-left: 45px;
+    /* background-color: rgb(152, 152, 160); */
+    float: left;
+    line-height: 30px;
 }
